@@ -792,10 +792,10 @@ footer h1{
         margin-left: 15%;
     }
     #illustration{
-        height: 900px;
+        height: 800px;
     }
     #illustration .words{
-        margin-top: 10%;
+        margin-top: 0%;
         margin-left: -20%;
         width: 90%;
     }
@@ -812,9 +812,12 @@ footer h1{
         margin-left: 5%;
     }
     #illustration .phone{
-        width: 100%;
-        left: 0%;
-        top: 35%;
+        width: 90%;
+        left: 4%;
+        top: 30%;
+    }
+    #illustration .phone .top{
+        gap: 8%;
     }
     #showcase3{
         margin-top: -12%;
@@ -828,7 +831,8 @@ footer h1{
         height: 200px;
     }
     #showcase3 .boxes .box img{
-        top: -20%;
+        top: -15%;
+        left: 30%;
         width: 20%;
     }
     #showcase3 .boxes .box h3{
@@ -855,10 +859,11 @@ footer h1{
         gap: 0;
     }
     footer .left_footer{
-        font-size: 7px;
+        font-size: 10px;
+        margin-left: 6%;
     }
     footer .right_footer{
         margin-left: 10%;
-        font-size: 5.5px;
+        font-size: 5px;
     }
 }
