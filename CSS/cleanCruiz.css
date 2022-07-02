@@ -650,7 +650,7 @@ footer h1{
         font-size: 13px;
     }
 }
-@media(max-width:375px){
+@media (min-height:249px) and (max-width:375px){
     header nav ul li{
         margin-left: -25%;
     }
@@ -663,8 +663,8 @@ footer h1{
     }
     #showcase .text p{
         width: 90%;
-        margin-left: 50%;
-        font-size: 14px;
+        margin-left: 55%;
+        font-size: 15px;
     }
     #showcase .text .booking{
         width: 80%;
@@ -754,7 +754,7 @@ footer h1{
         margin-left: 15%;
     }
     footer{
-        margin-top: -1.7%;
+        margin-top: 2%;
     }
     footer .left_footer{
         font-size: 10px;
@@ -765,7 +765,7 @@ footer h1{
 }
 @media(max-width: 250px){
     .header nav ul li{
-        margin-left: -50%;
+        margin-left: -30%;
     }
     .header nav ul li button{
         width: 10%;
@@ -782,29 +782,34 @@ footer h1{
         margin-left: 40%;
     }
     #showcase .text .booking{
-        margin-left: 50%;
+        margin-left: 80%;
     }
     #showcase .text .booking:hover{
-        width: 100%;
+        width: 70%;
     }
     #showcase .illustration{
         width: 85%;
         margin-left: 15%;
     }
     #illustration{
-        height: 700px;
+        height: 900px;
     }
     #illustration .words{
-        margin-top: -180%;
-        margin-left: 7%;
-        width: 100%;
+        margin-top: 10%;
+        margin-left: -20%;
+        width: 90%;
     }
     #illustration .words h2{
-        width: 100%;
+        text-align: center;
+        width: 90%;
     }
     #illustration .words p{
-        width: 100%;
-        margin-left: 1%;
+        width: 95%;
+        margin-left: 15%;
+    }
+    #illustration .words a img{
+        width: 70%;
+        margin-left: 5%;
     }
     #illustration .phone{
         width: 100%;
@@ -813,33 +818,40 @@ footer h1{
     }
     #showcase3{
         margin-top: -12%;
-        height: 1000px;
+        height: 850px;
     }
     #showcase3 h1{
-        font-size: 24px;
+        font-size: 20px;
     }
     #showcase3 .boxes .box{
-        height: 250px;
+        width: 90%;
+        height: 200px;
+    }
+    #showcase3 .boxes .box img{
+        top: -20%;
+        width: 20%;
     }
     #showcase3 .boxes .box h3{
-        font-size: 25px;
+        font-size: 20px;
     }
     #showcase3 .boxes .box p{
-        font-size: 18px;
+        font-size: 15px;
     }
     #showcase4{
-        height: 385px;
+        height: 400px;
         margin-top: 400%;
     }
-    #showcase4 .left_werey{
-        margin-top: -4px;
+    #showcase4 .left_werey h1{
+        width: 90%;
+        margin-left: -5%;
+    }
+    #showcase4 .left-werey p{
+        margin-left: -2%;
     }
     #showcase4 .right_werey{
-        top: 30%;
-        margin-left: 0%;
+        margin-left: -5%;
     }
     footer{
-        margin-top: 57%;
         gap: 0;
     }
     footer .left_footer{
