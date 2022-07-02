@@ -565,7 +565,7 @@ footer h1{
         left: 19%;
 }
     #illustration .phone .top{
-        gap: 12%;
+        gap: 20%;
     }
     #illustration .phone .sign{
         margin-top: 10px;
@@ -586,7 +586,7 @@ footer h1{
     }
     #showcase3 .boxes .box{
         width: 75%;
-        margin-left: 17%;
+        margin-left: 15%;
         height: 200px;
         margin-top: 15%;
     }
@@ -608,32 +608,38 @@ footer h1{
 
     }
    #showcase4{
-    margin-top: 1600px;
+    margin-top: 600px;
+    height: 1000px;
     gap: 0%;
     flex-direction: column-reverse;
 } 
     #showcase4 .left_werey{
+        margin-top: -0%;
         width: 100%;
         margin-left: 6%;
     }
     #showcase4 .left_werey h1{
-        width: 100%;
-        font-size: 20px;
+        margin-left: 5%;
+        width: 90%;
+        font-size: 17px;
     }
     #showcase4 .left_werey p{
-        width: 100%;
-        font-size: 20px;
+        margin-left: 7%;
+        width: 80%;
+        font-size: 15px;
     }
     #showcase4 button{
         margin-top: 5%;
         margin-left: 20%;
     }
     #showcase4 .right_werey{
-        width: 50%;
+        margin-top: 20%;
+        margin-left: 20%;
+        width: 100%;
     }
     #showcase4 .right_werey img{
-        width: 200px;
-        height: 350px;
+        width: 250px;
+        height: 400px;
     }
     footer{
         margin-top: -0.9%;
