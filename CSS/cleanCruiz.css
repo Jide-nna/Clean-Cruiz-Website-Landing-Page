@@ -475,7 +475,7 @@ footer h1{
         height: 420px;
     }
 }
-@media (min-width:250px) and (max-width:500px) {
+@media(max-width:500px) {
     html,body{
         margin: 0;
         padding: 0;
@@ -536,12 +536,28 @@ footer h1{
     }
 #illustration{
     flex-direction: column-reverse;
-    height: 1000%;
+    height: 1000px;
+}
+#illustration .words{
+    position: absolute;
+    top: 60%;
+    left: 18%;
+    width: 400px;
+    text-align: center;
+}
+#illustration .words h2{
+    font-size: 25px;
+}
+#illustration .words p{
+    width: 100%
 }
    #illustration .phone{
         margin-top: -90%;
-        height: 28rem;
+        height: 33rem;
         border-bottom: 10px solid white;
+        width: 60%;
+        top: 50%;
+        left: 19%;
 }
     #illustration .phone .top{
         gap: 12%;
