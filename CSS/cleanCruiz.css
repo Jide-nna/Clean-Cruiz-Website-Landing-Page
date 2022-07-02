@@ -536,23 +536,28 @@ footer h1{
     }
 #illustration{
     flex-direction: column-reverse;
-    height: 1000px;
+    height: 900px;
 }
 #illustration .words{
     position: absolute;
-    top: 60%;
+    top: 65%;
     left: 18%;
     width: 400px;
     text-align: center;
 }
 #illustration .words h2{
-    font-size: 25px;
+    font-size: 20px;
 }
 #illustration .words p{
-    width: 100%
+    width: 100%;
+    margin-left: -15px;
+}
+#illustration .words a img{
+    width: 50%;
+    margin-left: -35%;
 }
    #illustration .phone{
-        margin-top: -90%;
+        margin-top: -80%;
         height: 33rem;
         border-bottom: 10px solid white;
         width: 60%;
@@ -561,6 +566,12 @@ footer h1{
 }
     #illustration .phone .top{
         gap: 12%;
+    }
+    #illustration .phone .sign{
+        margin-top: 10px;
+    }
+    #illustration .phone .italic{
+        margin-top: 10px;
     }
     #showcase3{
         height: 1600px;
