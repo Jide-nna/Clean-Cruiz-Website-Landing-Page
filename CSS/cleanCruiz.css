@@ -1,0 +1,825 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin-top: 3%;
+    background: white;
+}
+/*  HEADER */
+.header{
+    display: flex;
+    gap: 10%;
+}
+.header h2{
+    width: 100%;
+    margin-left: 7%;
+    color: rgb(248, 106, 130);
+    font-size: 40px;
+    font-weight: bolder;
+}
+/* nav*/
+.header nav ul{
+    width: 700px;
+    display: flex;
+    gap: 10%;
+}
+.header .norm{
+    list-style: none;
+    text-align: center;
+}
+.header ul li a{
+    text-decoration: none;
+    line-height: 1%;
+    color: black;
+    opacity: 70%;
+    font-size: 20px;
+}
+.header ul li a:hover{
+    color: rgb(42, 42, 95);
+    font-size: 25px;
+    cursor: pointer;
+}
+/* LOG IN*/
+button{
+    border: 2px solid rgb(241, 109, 131);
+    background: white;
+    border-radius: 18px;
+    padding: 15px;
+    width: 100%;
+}
+.log:hover{
+    cursor: pointer;
+    font-size: 20px;
+    width: 20%;
+    padding: 2%;
+}
+button a{
+    color: rgb(241, 109, 131);
+    font-size: 20px;
+}
+.log button:hover{
+    color: rgb(35, 35, 82);
+}
+/* SHOWCASE*/
+#showcase{
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+}
+#showcase .text{
+    margin-left: 7%;
+    width: 50%;
+}
+#showcase .text h1{
+    width: 500px;
+    font-size: 60px;
+    opacity: 60%;
+}
+#showcase .text p{
+    width: 400px;
+    font-size: 17px;
+    line-height: 20px;
+    opacity: 60%;
+}
+#showcase .text .booking{
+    margin-top: 5%;
+    border-radius: 50px;
+    padding: 4%;
+    width: 40%;
+    background: rgb(245, 105, 128);
+    text-align: center;
+}
+#showcase .text .booking a{
+    color: white;
+    text-decoration: none;
+}
+#showcase .text .booking:hover{
+    cursor: pointer;
+    width: 45%;
+    padding: 5%;
+}
+#showcase .illustration{
+    margin-left: 10%;
+    width: 80%;
+    height: 90%;
+}
+#showcase2 img{
+    margin-top: 2%;
+    margin-left: 6%;
+    width: 9%;
+    opacity: 40%;
+}
+/*ILLUSTRATION */
+#illustration{
+    display: flex;
+    background: rgb(241, 109, 131);
+    position: relative;
+    align-items: center;
+    margin-top: 5%;
+    height: 550px;
+}
+.words{
+    width: 60%;
+    margin-left: 7%;
+    margin-top: 4%;
+}
+.words h2{
+    width: 60%;
+    font-size: 50px;
+    opacity: 85;
+    color: white;
+}
+.words p{
+    text-align: left;
+    width: 50%;
+    font-size: 20px;
+    color: white;
+    margin-top: 3%;
+    opacity: 60%;
+}
+.words img{
+    width: 20%;
+    margin-left: -1.5%;
+}
+/* PHONE PART*/
+.phone{
+    position: absolute;
+    top: 12%;
+    left: 70%;
+    width: 23%;
+    border: 10px  solid rgb(250, 225, 230);
+    border-radius: 30px;
+    padding: 10px;
+    background: white;
+    height: 92%;
+    border-bottom: hidden;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.phone .top{
+    display: flex;
+    gap: 20%;
+}
+.phone .time{
+    margin-left: 6%;
+}
+.phone .top .right{
+    margin-left: 40%;
+}
+.illustration2 img{
+    width: 100%;
+    height: 30%;
+}
+.para h2{
+    text-align: center;
+    color: rgb(250, 101, 126);
+    font-size: 28px;
+    font-weight: 900;
+}
+.para .welcome{
+    margin-top: 5%;
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+    opacity: 65%;
+}
+.sign{
+    text-align: center;
+    background: rgb(252, 93, 120);
+    border-radius: 10px;
+    margin-top: 3%;
+    padding: 3%;
+    width: 90%;
+}
+.sign a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+.italic {
+    text-align: center;
+    cursor: pointer;
+}
+.italic a{
+    text-decoration: none;
+    color: black;
+}
+/* SHOWCASE 3*/
+#showcase3{
+    position: absolute;
+    background: rgb(245, 240, 240);
+    height: 50%;
+}
+#showcase3 h1{
+    text-align: center;
+    margin-top: 1.5%;
+    opacity: 50%;
+    font-size: 25px;
+    margin-left: 5%;
+}
+#showcase3 .boxes{
+    display: flex;
+    justify-items: center;
+    gap: 2%;
+    margin-left: 18%;
+    margin-top: 2%;
+}
+#showcase3 .boxes .box{
+    box-shadow: 5px 5px 5px white;
+    background: white;
+    border-radius: 15px;
+    width: 25%;
+    padding: 3%;
+}
+#showcase3 .boxes .box img{
+    position: absolute;
+    top: 17%;
+   margin-left: 6%;
+    width: 3%;
+    height: 10%;
+}
+#showcase3 .boxes .box .green{
+    background: rgb(174, 255, 174);
+    border-radius: 50px;
+    border: 2px solid rgb(174, 255, 174);
+}
+#showcase3 .boxes .box .yellow{
+    background: rgb(248, 248, 74);
+    border-radius: 50px;
+    border: 2px solid rgb(248, 248, 74);
+}
+#showcase3 .boxes .box .blue{
+    background: rgb(101, 101, 241);
+    border-radius: 50px;
+    border: 2px solid rgb(101, 101, 241);
+}
+#showcase3 .boxes .box h3{
+    text-align: center;
+    opacity: 70%;
+    font-size: 22px;
+}
+#showcase3 .boxes .box p{
+    text-align: center;
+    opacity: 70%;
+    width: 100%;
+    font-size: 12px;
+    font-weight: 900;
+}
+/* SHOWCASE 4*/
+#showcase4{
+    margin-top: 25%;
+    background: white;
+    display: flex;
+    gap: 5%;
+}
+#showcase4 .left_werey{
+    width: 30%;
+    margin-left: 25%;
+    margin-top: 8%;
+}
+#showcase4 .left_werey h1{
+    width: 100%;
+    font-size: 36px;
+    opacity: 60%;
+}
+#showcase4 .left_werey button{
+    background: rgb(245, 105, 128);
+    padding: 3%;
+    width: 40%;
+    margin-top: 5%;
+    border-radius: 15px;
+}
+#showcase4 .left_werey button:hover{
+    cursor: pointer;
+    width: 45%;
+    padding: 4%;
+    border-radius: 20px;
+}
+#showcase4 .left_werey a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+#showcase4 .left_werey p{
+    width: 100%;
+    opacity: 70%;
+    font-size: 18px;
+    margin-top: 3%;
+}
+#showcase4 .right_werey img{
+    width: 80%;
+    height: 450px;
+}
+footer{
+    margin-top: -4px;
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(to right, rgb(176, 204, 178), rgb(159, 202, 158) );
+    height: 70px;
+    border-top-left-radius: 1000px;
+    padding: 2%;
+    color: white;
+}
+footer h1{
+    opacity: 70%;
+}
+@media(max-width:1440px){
+    html,body{
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    header{
+        margin-top: 3%;
+    }
+    .header h2{
+        margin-top: -2%;
+    }
+    #illustration .phone{
+        top: 8%;
+    }
+    #showcase3{
+        height: 370px;
+    }
+    #showcase3 h1{
+        margin-top: 3%;
+    }
+    #showcase3 .boxes .box img{
+        top: 21%;
+    }
+    #showcase4{
+        gap: 13%;
+    }
+    #showcase4 .left_werey{
+        margin-left: 10%;
+    }
+    #showcase4 .right_werey{
+        margin-top: 5%;
+    }
+}
+@media (max-width:1024px){
+    .header{
+        width: 100%;
+        gap: 5%;
+        margin-top: 5%;
+    }
+    .header h2{
+        font-size: 35px;
+        margin-top: -2%;
+    }
+    #showcase{
+        margin-top: 4%;
+    }
+    #illustration .phone{
+        top: 25.5%;
+    }
+    #illustration .phone .top{
+        gap: 10%;
+    }
+    #showcase3 h1{
+        margin-top: 5%;
+        font-size: 40px;
+    }
+    #showcase3 .boxes{
+        margin-left: 6%;
+    }
+    #showcase3 .boxes .box{
+        width: 70%;
+        margin-top: 2%;
+    }
+    #showcase3 .boxes .box img{
+        top: 30%;
+        width: 6%;
+        height: 12%;
+        margin-left: 9%;
+    }
+    #showcase3 .boxes .box h3{
+        font-size: 25px;
+    }
+    #showcase3 .boxes .box p{
+        font-size: 15px;
+    }
+    #showcase4 .left_werey{
+        margin-top: 20%;
+        width: 45%;
+    }
+    #showcase4 .right_werey{
+        width: 65%;
+        margin-top: 10%;
+    }
+}
+@media(max-width: 768px){
+    .header{
+        width: 100%;
+        gap: 5%;
+    }
+    .header h2{
+        margin-top: -2%;
+        margin-left: 4%;
+        font-size: 20px;
+    }
+    .header nav ul{
+        gap: 7%;
+    }
+    #illustration .words{
+        width: 93%;
+        margin-left: 4%;
+    }
+    #illustration .phone{
+        width: 35%;
+        left: 60%;
+        top: 18%;
+    }
+    #illustration .phone .top{
+        gap: 15%;
+    }
+    #showcase3{
+        height: 400px;
+    }
+    #showcase3 h1{
+        margin-top: 7%;
+    }
+    #showcase3 .boxes{
+        margin-left: 1.5%;
+        margin-top: 7%;
+        gap: 3%;
+    }
+    #showcase3 .boxes .box{
+        width: 100%;
+    }
+    #showcase3 .boxes .box img{
+        width: 8%;
+        height: 15%;
+        top: 33%;
+        margin-left: 8%;
+    }
+    #showcase3 .boxes .box h3{
+        font-size: 22px;
+    }
+    #showcase3 .boxes .box p{
+        font-size: 15px;
+    }
+    #showcase4{
+        width: 100%;
+        gap: 5%;
+    }
+    #showcase4 .left_werey{
+        margin-top: 40%;
+        margin-bottom: 3%;
+        margin-left: 10%;
+        width: 65%;
+    }
+    #showcase4 .right_werey img{
+        margin-top: 35%;
+        width: 100%;
+        height: 420px;
+    }
+}
+@media (min-width:250px) and (max-width:500px) {
+    html,body{
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    body{
+        width: 100%;
+    }
+   .header{
+    height: 200px;
+    gap: 0%;
+   }
+   .header nav ul{
+    margin-top: 3%;
+    flex-direction: column;
+    margin-left: -15%;
+   }
+   .header nav ul li{
+    margin-top: 2%;
+   }
+   .header nav ul li button{
+    width: 20%;
+    margin-left: 0%;
+   }
+   .header nav ul li button:hover{
+    width: 90%;
+    margin-left: 100%;
+    font-size: 35px;
+   }
+    #showcase{
+        flex-direction: column-reverse;
+    }
+    #showcase .text{
+        margin-left: -45%;
+    }
+    #showcase .text h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    #showcase .text p{
+     margin-left: 20%;
+     font-size: 17px;
+     text-align: center;
+    }
+    #showcase .text .booking{
+        width: 100%;
+        padding: 4%;
+        height: 10%;
+        border-radius: 6px;
+        margin-left: 50%;
+    }
+    #showcase .text .booking:hover{
+        width: 250px;
+    }
+    #showcase .illustration{
+        width: 100%;
+        height: 200px;
+    }
+    #illustration{
+        position: relative;
+        width: 100%;
+        height: 480px;
+    }
+    #illustration .words{
+        width: 70%;
+        margin-left: 3%;
+    } 
+    #illustration .words h2{
+        font-size: 20px;
+    }
+    #illustration .words p{
+        width: 60%;
+        font-size: 10px;
+    }
+    #illustration .phone{
+        position: absolute;
+        left: 48%;
+        top: 11.2%;
+        width: 50%;
+    }
+    #illustration .phone .top{
+        gap: 12%;
+    }
+    #showcase3{
+        height: 1600px;
+    }
+    #showcase3 h1{
+        margin-top: 10%;
+        font-size: 50px;
+    }
+    #showcase3 .boxes{
+        margin-left: 1%;
+        flex-direction: column;
+    }
+    #showcase3 .boxes .box{
+        width: 95%;
+        margin-left: 2%;
+        height: 400px;
+        margin-top: 15%;
+    }
+    #showcase3 .boxes .box h3{
+        font-size: 50px;
+        margin-top: -8%;
+    }
+    #showcase3 .boxes .box p{
+        margin-top: 3%;
+        font-size: 30px;
+    }
+    #showcase3 .boxes .box img{
+        width: 15%;
+        height: 20%;
+        position: relative;
+        left: 40%;
+        top: -14%;
+
+
+    }
+   #showcase4{
+    margin-top: 1600px;
+    gap: 0%;
+} 
+    #showcase4 .left_werey{
+        margin-top: 25%;
+        width: 100%;
+        margin-left: 6%;
+    }
+    #showcase4 .left_werey h1{
+        width: 100%;
+        font-size: 20px;
+    }
+    #showcase4 .left_werey p{
+        width: 100%;
+        font-size: 20px;
+    }
+    #showcase4 button{
+        margin-top: 5%;
+        margin-left: 20%;
+    }
+    #showcase4 .right_werey{
+        width: 50%;
+    }
+    #showcase4 .right_werey img{
+        margin-top: -13%;
+        width: 200px;
+        height: 350px;
+    }
+    footer{
+        margin-top: -0.9%;
+        height: 50px;
+    }
+    footer .left_footer{
+        font-size: 14px;
+    }
+    footer .right_footer{
+        font-size: 13px;
+    }
+}
+@media(max-width:375px){
+    header nav ul li{
+        margin-left: -25%;
+    }
+    #showcase .text{
+        margin-left: -57%;
+    }
+    #showcase .text h1{
+        font-size: 25px;
+        margin-left: -29%;
+    }
+    #showcase .text p{
+        margin-left: 0%;
+        font-size: 12px;
+    }
+    #illustration{
+        gap: 0;
+        height: 630px;
+    }
+    #illustration .words{
+        margin-top: -100%;
+        margin-left: 20%;
+        width: 100%;
+    }
+    #illustration .words h2{
+        width: 90%;
+        margin-left: -5%;
+    }
+    #illustration .words p{
+        width: 100%;
+        margin-left: -7%;
+        font-size: 15px;
+    }
+    #illustration .words img{
+        width: 40%;
+    }
+    #illustration .phone{
+        width: 61%;
+        left: 20%;
+        top: 33%;
+    }
+    #illustration .phone .top{
+        gap: 9%;
+    }
+    #showcase3{
+        margin-top: -6%;
+        height: 1350px;
+    }
+    #showcase3 h1{
+        font-size: 35px;
+    }
+    #showcase3 .boxes .box{
+        margin-left: 0;
+        width: 100%;
+        height: 320px;
+    }
+    #showcase3 .boxes .box img{
+        left: 35%;
+    }
+    #showcase3 .boxes .box h3{
+        font-size: 25px;
+    }
+    #showcase3 .boxes .box p{
+        font-size: 25px;
+    }
+    #showcase4{
+        flex-direction: column;
+        height: 435px;
+    }
+    #showcase4 .left_werey{
+        margin-left: 3%;
+        margin-top: -30%;
+    }
+    #showcase4 .left_werey h1{
+        width: 100%;
+        font-size: 18px;
+    }
+    #showcase4 .left_werey p{
+        width: 100%;
+        font-size: 15px;
+    }
+    #showcase4 .left_werey button{
+        margin-left: 10;
+        width: 50%;
+    }
+    #showcase4 .left_werey button:hover{
+        width: 70%;
+    }
+    #showcase4 .right_werey{
+        margin-left: 50%;
+    }
+    footer{
+        margin-top: -1.7%;
+    }
+    footer .left_footer{
+        font-size: 10px;
+    }
+    footer .right_footer{
+        font-size: 10px;
+    }
+}
+@media(max-width: 250px){
+    .header nav ul li{
+        margin-left: -50%;
+    }
+    .header nav ul li button{
+        width: 10%;
+    }
+    #showcase{
+        margin-left: -10%;
+    }
+    #showcase .text h1{
+        margin-left: -70%;
+        font-size: 15px;
+    }
+    #showcase .text p{
+        width: 200px;
+        margin-left: 40%;
+    }
+    #showcase .text .booking{
+        margin-left: 50%;
+    }
+    #showcase .text .booking:hover{
+        width: 100%;
+    }
+    #showcase .illustration{
+        width: 85%;
+        margin-left: 15%;
+    }
+    #illustration{
+        height: 700px;
+    }
+    #illustration .words{
+        margin-top: -180%;
+        margin-left: 7%;
+        width: 100%;
+    }
+    #illustration .words h2{
+        width: 100%;
+    }
+    #illustration .words p{
+        width: 100%;
+        margin-left: 1%;
+    }
+    #illustration .phone{
+        width: 100%;
+        left: 0%;
+        top: 35%;
+    }
+    #showcase3{
+        margin-top: -12%;
+        height: 1000px;
+    }
+    #showcase3 h1{
+        font-size: 24px;
+    }
+    #showcase3 .boxes .box{
+        height: 250px;
+    }
+    #showcase3 .boxes .box h3{
+        font-size: 25px;
+    }
+    #showcase3 .boxes .box p{
+        font-size: 18px;
+    }
+    #showcase4{
+        height: 385px;
+        margin-top: 400%;
+    }
+    #showcase4 .left_werey{
+        margin-top: -4px;
+    }
+    #showcase4 .right_werey{
+        top: 30%;
+        margin-left: 0%;
+    }
+    footer{
+        margin-top: 57%;
+        gap: 0;
+    }
+    footer .left_footer{
+        font-size: 7px;
+    }
+    footer .right_footer{
+        margin-left: 10%;
+        font-size: 5.5px;
+    }
+}
