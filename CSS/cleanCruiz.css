@@ -491,7 +491,7 @@ footer h1{
    .header nav ul{
     margin-top: 3%;
     flex-direction: column;
-    margin-left: -15%;
+    margin-left: -30%;
    }
    .header nav ul li{
     margin-top: 2%;
@@ -501,7 +501,7 @@ footer h1{
     margin-left: 0%;
    }
    .header nav ul li button:hover{
-    width: 90%;
+    width: 70%;
     margin-left: 100%;
     font-size: 35px;
    }
@@ -512,23 +512,23 @@ footer h1{
         margin-left: -45%;
     }
     #showcase .text h1{
-        font-size: 30px;
+        font-size: 20px;
         text-align: center;
     }
     #showcase .text p{
      margin-left: 20%;
-     font-size: 17px;
+     font-size: 15px;
      text-align: center;
     }
     #showcase .text .booking{
-        width: 100%;
+        width: 70%;
         padding: 4%;
         height: 10%;
         border-radius: 6px;
-        margin-left: 50%;
+        margin-left: 60%;
     }
     #showcase .text .booking:hover{
-        width: 250px;
+        width: 280px;
     }
     #showcase .illustration{
         width: 100%;
@@ -574,36 +574,36 @@ footer h1{
         margin-top: 10px;
     }
     #showcase3{
-        height: 1600px;
+        height: 1000px;
     }
     #showcase3 h1{
         margin-top: 10%;
-        font-size: 50px;
+        font-size: 25px;
     }
     #showcase3 .boxes{
         margin-left: 1%;
         flex-direction: column;
     }
     #showcase3 .boxes .box{
-        width: 95%;
-        margin-left: 2%;
-        height: 400px;
+        width: 75%;
+        margin-left: 17%;
+        height: 200px;
         margin-top: 15%;
     }
     #showcase3 .boxes .box h3{
-        font-size: 50px;
+        font-size: 25px;
         margin-top: -8%;
     }
     #showcase3 .boxes .box p{
         margin-top: 3%;
-        font-size: 30px;
+        font-size: 20px;
     }
     #showcase3 .boxes .box img{
         width: 15%;
-        height: 20%;
+        height: 25%;
         position: relative;
-        left: 40%;
-        top: -14%;
+        left: 32%;
+        top: -23%;
 
 
     }
